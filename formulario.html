@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <header class="bg-dark p-3 text-light text-center ">
+        
+    <h1>formularios</h1>
+
+    </header>
+     <section class="container w-50 shadow">
+        <h2>cadastro de cliente </h2>
+        <form class=" border border-3 p-3 mb-5 d-flex flex-column" >
+            <label >Nome completo  </label>
+            <input type="text">
+
+            <label >email</label>
+            <input type="email">
+
+            <label >senha</label>
+            <input type="password">
+
+            <label>confirmar senha </label>
+            <input type="password">
+
+            <label class="mt-5 me-3 " >Usuario</label>
+            <input class="" name="usuarios" checked type="radio">Aluno
+            <input name="ususarios" type="radio">Professor
+            <input name="ususario
+            s" type="radio">Cordenador
+
+            <label class="mt-4 m"  for="escolaridade">escolaridade</label>
+            <select class="form-select">
+                <option value="ensino fundamental">Ensino fundamental</option>
+                <option selected value="ensino medio">Ensino médio</option>
+                <option value="graduaçaõ">Grsduação</option>
+                <option value="pos-graduaçaõ">Pos-graduação</option>
+                <option value="mestrado">Mestrado</option>
+            </select>
+
+            <br>
+            <label>termos de uso
+                <a href="./termos.html">abrir termos</a>
+            </label>
+            <input type="checkbox">eu li e concordo
+          
+            <br>
+            <textarea class="form-control" cols="50" rows="5"></textarea>
+            <button>salvar</button>
+
+        </form>
+
+    </section>
+    
+</body>
+</html>
